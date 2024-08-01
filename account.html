@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Management</title>
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/account.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Account Forms -->
+    <div class="account-forms">
+        <form class="login-form">
+            <h3>Login</h3>
+            <div>
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" required>
+            </div>
+            <div>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" required>
+            </div>
+            <input type="submit" value="Login">
+        </form>
+
+        <form class="register-form">
+            <h3>Register</h3>
+            <div>
+                <label for="register-name">Name:</label>
+                <input type="text" id="register-name" required>
+            </div>
+            <div>
+                <label for="register-email">Email:</label>
+                <input type="email" id="register-email" required>
+            </div>
+            <div>
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password" required>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bilal Ahmed. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
